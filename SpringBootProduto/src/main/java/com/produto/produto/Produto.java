@@ -79,6 +79,12 @@ public class Produto {
 		this.quantidade = quantidade;
 	}
 
+	@Override
+	public String toString() {
+		return "Produto [id=" + id + ", codigo=" + codigo + ", nome=" + nome + ", categoria=" + categoria + ", valor="
+				+ valor + ", quantidade=" + quantidade + "]";
+	}
+
 	public Produto() {
 		super();
 	}
